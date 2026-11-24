@@ -1773,7 +1773,7 @@ function tagNums(root){
  `<div class="vv-cover">
   <div class="pey a" ${D(0)}>Proyecto de Tesis II · Ingeniería Mecatrónica · UCSP</div>
   <h1 class="a" ${D(.1)}>Evidencia LAP, verificación,<br><span class="hl">validación y KPIs</span></h1>
-  <p class="sub a" ${D(.25)}>Módulo de diagnóstico de fallas basado en condición para la transmisión por cadena y el motor de tracción del módulo Swerve SW3 del robot agrícola SMITH.</p>
+  <p class="sub a" ${D(.25)}>Tesis: «Diseño e implementación de un módulo de diagnóstico de fallas basado en condición mediante SVD-GST y Random Forest para la transmisión por cadena y el motor de tracción del módulo Swerve del robot agrícola SMITH».</p>
   <div class="pstats a" ${D(.4)}>${[["7","pruebas registradas (P01–P07)"],[96,"corridas grabadas con la app"],[2368,"ventanas para la falla de cadena"],[2,"de 3 KPIs cumplidos; el tercero se evalúa con T0–T6"]].map(([v,l],i)=>`<div class="pstat az" ${D(.5+i*.12)}><b ${typeof v==="number"?`data-count="${v}"`:""}>${v}</b><span>${l}</span></div>`).join("")}</div>
   <div class="vv-who a" ${D(.9)}><span>Aida Priscila Suni Saavedra</span><span>24 de noviembre de 2026</span><span>Ensayos en banco · robot levantado</span></div></div>`,
  `${LS("Alcance del diagnóstico","Qué vigila el módulo y con qué señal")}
@@ -1879,7 +1879,7 @@ function tagNums(root){
  `${LS("Alcance","Delimitación y próximos pasos")}
   <div class="pgrid g2 fill big">
    <div class="pcard a" ${D(.15)}><span class="vv-k">Dentro del alcance</span><ul><li>Módulo SW3: transmisión por cadena, motor de tracción y motor de dirección</li><li>Ensayos en banco con el robot levantado (M1) y barrido de dirección (M2)</li><li>Condiciones: cadena sin daño, holgura, eslabón dañado, escobillas y juego del engranaje</li></ul><span class="vv-k" style="margin-top:10px">Trabajos futuros</span><ul><li>Rodamiento de rueda</li><li>Validación en campo y en los otros cinco módulos</li><li>Nivel actual: mantenimiento basado en condición (EN 13306). Paso a predictivo: tendencia del indicador por jornada y tiempo hasta el umbral de alerta</li><li>Estimación de vida remanente</li></ul></div>
-   <div class="pcard a" ${D(.3)}><span class="vv-k">Próximas sesiones</span><ul><li>Holgura controlada y cadena sin daño en la misma jornada</li><li>Calibración de la corriente con pinza amperimétrica</li><li>Escobillas reducidas 25 % y 50 % (T3, T4)</li><li>SIT-03 ×5 y checklist con 5 repeticiones por cadena</li><li>Firmware con rango de ±8 g</li><li>SW2 como segundo módulo de referencia</li></ul></div></div>`,
+   <div class="pcard a" ${D(.3)}><span class="vv-k">Próximas sesiones</span><ul><li>Repetir T0G, T1 y T2 en otra jornada y reentrenar el modelo con J3</li><li>Calibración de la corriente con pinza amperimétrica</li><li>Escobillas reducidas 25 % y 50 % (T3, T4)</li><li>SIT-03 ×5 y checklist con 5 repeticiones por cadena</li><li>Firmware con rango de ±8 g</li><li>SW2 como segundo módulo de referencia</li></ul></div></div>`,
  `<div class="vv-cover" style="justify-content:center">
   <div class="pey a" ${D(0)}>Preguntas</div>
   <h1 class="a" ${D(.1)}>Gracias</h1>
